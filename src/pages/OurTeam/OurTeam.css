@@ -1,0 +1,96 @@
+.card-style{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border:2px solid rgba(255, 255, 255, 0.1);
+    border-radius:10px;
+}
+.lastCard
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10vh;
+}
+.ourTeamPg{
+  position: relative;
+    margin-top:5vh;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    height: 90vh;
+}
+.colu{
+  display: flex;
+  justify-content: center;
+}
+
+.ourTeamTitle{
+  margin-top: 35px !important;
+    margin-bottom: 2px !important;
+    font-size: 40px;
+    color: white;
+    font-weight:bold;
+}
+
+.img-border{
+    border-radius:-10px;
+}
+a {
+  color: #ffffff;
+  /* text-decoration: underline; */
+}
+
+.image{
+    max-width: 100%;
+    aspect-ratio: 1/1;
+    object-fit:cover;
+  }
+
+  .fade-in {
+    opacity: 0;
+    animation: fade-in 2s ease-in-out forwards;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .bi{
+    font-size: 1.5rem;
+    transition: 0.3s;
+  }
+  .bi:hover{
+    color:rgb(95, 95, 255);
+    box-shadow: 0 5px 15px rgba(7, 7, 241, 0.4);
+  }
+
+ 
+ 
+.effect{
+    transition: 0.3s ease;
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter : blur(5px);
+    border-radius: 10px;
+   
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    max-width:270px;
+    /* box-shadow: 0 4px 5px rgba(227, 188, 255, 0.4); */
+}
+
+.effect:hover{
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(198, 127, 249, 0.4);
+}
+
+@media only screen and (max-width:768px){
+  .effect{
+    max-width: 290px;
+  }
+
+}
+
+

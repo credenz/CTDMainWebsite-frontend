@@ -1,0 +1,49 @@
+.img-fluid1{
+    float: left;
+}
+.sponsersPage{
+    display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  height: 90vh;
+}
+strong{
+    font-weight: 700;
+    letter-spacing: 0.14em;
+}
+
+.content1{
+    text-align: justify;
+    margin: 14% 10px;
+}
+
+.sponserheading{
+    font-weight: 700;
+    font-size: 3.4rem;
+     /* background: linear-gradient(-145deg,rgb(236, 134, 134),red);
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text; */
+     /* filter:drop-shadow( 1px 1px 5px red); */
+}
+
+@media screen and (min-width: 768px) {
+    .ctd-logo{
+        max-width: 40%;
+    }
+  }
+
+  @media(max-width: 768px){
+    .img-fluid1{
+        float: none;
+    }
+    .content1{
+        margin: 5% 10px;  
+    }
+    .sponserheading{
+        font-size: 2.4rem;
+    }
+    .parasponser{
+        margin-bottom: 10vh;
+
+    }
+  }

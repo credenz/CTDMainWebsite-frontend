@@ -1,0 +1,19 @@
+.foot{
+    background-color: rgb(20, 23, 41);
+    backdrop-filter: blur(1px);
+}
+.footericom{
+    color: white;
+}
+
+.footerText{
+    text-decoration: none;
+    font-family:'Poppins','san';
+    color: white;
+}
+.footerText:hover{
+    text-decoration: none;
+    font-family:'Poppins','san';
+    color: white;
+
+}

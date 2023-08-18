@@ -1,0 +1,22 @@
+
+.colu {
+    display: flex;
+    justify-content: center;
+}
+
+.effect1 {
+    transition: 0.3s ease;
+    box-shadow: 0 4px 5px rgba(227, 188, 255, 0.4);
+}
+
+.effect1:hover {
+    box-shadow: 0 5px 15px rgba(227, 188, 255, 0.4);
+}
+
+.singlecard {
+    max-width: 290px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    border-color: #5e5074;
+}

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Rubik+Puddles&display=swap');
+*{
+  /* font-family:'Poppins','san', bootstrap-icons; */
+  font-family:'Poppins','san', bootstrap-icons;
+}
+
+body{
+
+    font-size: 1rem;
+      background-image: url("https://i.postimg.cc/4yd05DDs/gradient.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+}
+body::-webkit-scrollbar {
+  display: none; 
+}
+  
+
+  .fade-in {
+    opacity: 0;
+    animation: fade-in 2s ease-in-out forwards;
+  }
+
+  @media only screen and (max-width:400px){
+    body{
+
+      font-size: 1rem;
+         background-image: url("https://i.postimg.cc/rsd2znhG/gradient2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+  }
+  
+  
+  }

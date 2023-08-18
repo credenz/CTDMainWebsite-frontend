@@ -1,0 +1,209 @@
+
+.eventModal{
+    position: absolute;
+    margin-top: -10vh;
+    font-size: 15px;
+    word-spacing: 3px;
+    line-height: 1.5rem;
+}
+
+.detail:focus {
+    outline: none; /* Remove focus outline */
+    box-shadow: none; /* Remove box-shadow on focus */
+  }
+
+  .reg:focus {
+    outline: none; /* Remove focus outline */
+    box-shadow: none; /* Remove box-shadow on focus */
+  }
+
+
+.close{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.timing{
+    text-align:start;
+}
+
+.contactSection{
+    margin-top: 30%;
+}
+ .card12{
+    width: auto;
+    min-width: 270px;
+   width: 18rem;
+   min-height: 15rem;
+   height: 350px;
+   background-color: rgba(255,255,255,0.01);
+   color: white;
+   backdrop-filter: blur(5px);
+   /* border: 3px solid rgba(255,255,255, 0.1); */
+   border: 2px solid rgba(255,255,255);
+   margin: 20px;
+   overflow: hidden;
+}
+.img-fluid12 {
+    background-color: transparent;
+    color: #fffff0;
+    min-height: 160px;
+    min-width: 160px;
+    transition-duration: 0.5s;
+}
+
+.close{
+    text-decoration: none;
+    cursor: pointer;
+}
+.btnc{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.detail{
+    color: white;
+    background-color: #030418;
+    border-radius: 7px;
+    border: 2px solid #25295a;
+    padding: auto 0px;
+    margin: 14px 40px;
+    
+}
+
+.reg{
+    color: white;
+    background-color: #030418;
+    border-radius: 7px;
+    border: 2px solid #212451;
+    margin: auto 20px;
+}
+
+ .detail:hover{
+    color: white !important;
+    scale: 1.1;
+    background-color: #0b0e1e !important;
+   border: 2px solid #131530;
+   transform: translateY(-0.3px) ;
+   transition: ease-out 0.3s;
+   box-shadow: 0.05px  0.05px  7px #3b408f,0.05px  -0.05px  7px #3b408f,-0.05px  0.05px  7px #3b408f;
+   
+} 
+
+.reg:is(:hover){
+    color: white !important;
+    background-color: #0b0e1e !important;
+    scale: 1.1;
+   border: 2px solid #131530;
+   transform: translateY(-0.3px) ;
+   transition: ease-out 0.3s;
+   box-shadow: 0.05px  0.05px  7px #3b408f,0.05px  -0.05px  7px #3b408f,-0.05px  0.05px  7px #3b408f;
+ }
+
+.modal-dialog1{
+    display: grid;
+    place-items: center;
+}
+ .modal-content1{
+    background-color: #0e121b;
+    backdrop-filter: blur(10px);
+    padding: 0;
+    /* text-wrap: balance; */
+    border: 2px solid rgba(255,255,255, 0.1);
+ }
+ .modal-dialog1{
+    margin-top: 14%;
+ }
+ .modal-header1 h4{
+    margin-bottom: 0;
+    padding: 0 8px;
+   
+ }
+ 
+
+ .modal-header1{
+    border-bottom: 2px solid rgba(255,255,255, 0.1);
+ }
+
+ #dtext{
+    max-height: 250px;
+    /* overflow-y: scroll; */
+    padding: 2px;
+ }
+ 
+ .mbtn{
+    text-align: center;
+    border-radius: 0px;
+    padding: 10px 14px;
+    text-decoration: none;
+    margin: 20px 10px;
+    font-weight: bold;
+    color: #0d6efd;
+ }
+ .mbtn.active{
+    border: solid white;
+    border-width: 0px 2px 0px 0;
+    transition: ease-in-out 0.2s;
+    color: #0d6efd; 
+ }
+
+ .mbtn:focus{
+    border: solid white;
+    border-width: 0px 2px 0px 0;
+    transition: ease-in-out 0.2s;
+    
+    color: #0d6efd;
+ }
+
+ @media (max-width:768px) {
+    .modal-body1{
+        flex-direction: column;
+        margin: 4px;
+    }
+    .modal-content1{
+        /* min-height: 350px; */
+        text-align: justify;
+    }
+
+    .modaltitle{
+        text-align:start;
+    }
+   
+    .mbtn{
+        padding: 5px 7px;
+       margin-top: 0px;
+       margin-bottom: 15px;
+       margin-left: 5px;
+       margin-right: 4px;
+        color: #0d6efd;
+        border: solid white;
+        border-width: 0px 0px 0px 0;
+     }
+
+     
+    
+     .mbtn:focus{
+        border: solid #0d6efd;
+        border-width: 0px 0px 2px 0;
+        color: #0d6efd;
+        transition: border-width ease-in-out 0.1s;
+     }
+     .mbtn.active{
+        border: solid #0d6efd;
+        border-width: 0px 0px 2px 0;
+        color: #0d6efd;
+        transition: border-width ease-in-out 0.1s;
+     }
+     .eventModal{
+        /* margin-top: 5vh; */
+        position:relative;
+        font-size: 14px;
+    }
+
+    .contactSection{
+        margin-top: 5%;
+        text-align: center;
+        margin-left: -30px;
+    }
+ }

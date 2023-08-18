@@ -1,0 +1,42 @@
+
+.singlerow {
+    display: flex;
+    justify-content: center;
+}
+
+.contactusPg{
+    display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  height: 90vh;
+  flex-direction: column;
+}
+.containercard{
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: white;
+    font-weight:bold;
+}
+@media (max-width: 768px) {
+    .heading{
+        margin-top: 30px;
+        margin-bottom: 25px;
+        font-size: 28px;
+    }
+    .blankdiv{
+        margin-bottom: 100vh;
+    }
+    .contactusPg{
+        display: block;
+      justify-content: center; /* Horizontally center */
+      align-items: center; /* Vertically center */
+      height: 200vh;
+      flex-direction: column;
+    }
+    }
