@@ -124,7 +124,7 @@ const EventsCard = (props) => {
           <h5 className="card-title fs-2 text-center">{props.shortname}</h5>
           <div className="btnc">
             <button className="btn detail" data-bs-toggle="modal"
-              data-bs-target={`#${props.shortname}`}>Info</button>
+              data-bs-target={`#${props.shortname}`}>Details</button>
             <button className="btn reg" name={props.shortname} onClick={registerEvent} disabled={checkCondition()}>{btncontent}</button>
           </div>
         </div>
