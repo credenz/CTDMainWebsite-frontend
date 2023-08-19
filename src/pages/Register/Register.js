@@ -99,8 +99,8 @@ const Register = () => {
 
   return (
     <div className="fade-in regPg">
-      <div className="mt-0  p-sm-0 p-sm-3 ">
-        <div className="container cont12 text-white p-3 p-sm-3 px-sm-4 mt-sm-0 log-style">
+      <div className="mt-0">
+        <div className="container cont12 text-white p-3 p-sm- px-sm-4 mt-sm-0 log-style">
           <form onSubmit={submitDetails}>
             <div className="title mb-sm-2 mb-3 text-center">
               <h1>Sign up &#xF4DD;</h1>
