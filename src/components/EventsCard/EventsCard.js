@@ -44,7 +44,6 @@ const EventsCard = (props) => {
 
   }
   const isRegisterd = localStorage.getItem("is"+props.shortname);
-  console.log(isRegisterd);
   const obj = props.rules.split("\n");
   
   const contact1 = props.contact.split("\n")

@@ -58,7 +58,6 @@ const Login = () => {
 
   const submitLoginForm = (e) => {
     e.preventDefault();
-    console.log(loginCredentials)
     loginUser(loginCredentials);
 
   }
