@@ -36,7 +36,7 @@ const Login = () => {
         if (response.data.success) {
           localStorage.setItem("isLogin", true);
           localStorage.setItem("userEmail", response.data.user.email)
-          localStorage.setItem("isDataWiz", response.data.user["isDatawiz"])
+          localStorage.setItem("isDatawiz", response.data.user["isDatawiz"])
           localStorage.setItem("isNCC", response.data.user["isNCC"])
           localStorage.setItem("isRC", response.data.user["isRC"])
           setLoginState(true);

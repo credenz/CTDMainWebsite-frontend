@@ -68,6 +68,9 @@ const Register = () => {
         if (response.data.success) {
           localStorage.setItem("isLogin", true);
           localStorage.setItem("userEmail", response.data.email);
+          localStorage.setItem("isDatawiz", "false")
+          localStorage.setItem("isNCC", "false")
+          localStorage.setItem("isRC", "false")
           toast.update(id, { render: "Registered  successfully !", type: "success", isLoading: false, autoClose:3000 })
           setLoginState(true);
           navigate("/");

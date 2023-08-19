@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./EventsCard.css"
 import axiosInstance from '../../utils/apis'
 import { useNavigate } from 'react-router'
@@ -8,7 +8,7 @@ import {toast} from 'react-toastify';
 const EventsCard = (props) => {
 
   const navigate = useNavigate();
-
+  const [togglingState, toggleState] = useState(false);
   const registerEvent = (e) => {
 
     const id = toast.loading("Please wait...");
@@ -24,6 +24,8 @@ const EventsCard = (props) => {
       .then((response) => {
         if (response.data.success) {
           // alert(response.data.message)
+          localStorage.setItem("is"+props.shortname,true );
+          toggleState(!togglingState);
           toast.update(id, { render: response.data.message, type: "success", isLoading: false, autoClose:3000 })
         }
         else {
@@ -49,13 +51,13 @@ const EventsCard = (props) => {
   let btncontent = "Register Here";
   if(props.shortname==="NTH"){
     btncontent = "Coming soon";
-    if(isRegisterd){
-      btncontent = "Registered";
     }
+    if(isRegisterd==="true"){
+      btncontent = "Registered";
   }
 
   const checkCondition = () => {
-    return ((props.shortname==="NTH" || isRegisterd=="true"));
+    return ((props.shortname==="NTH" || isRegisterd==="true"));
   };
 
   let inlineStyles={}
