@@ -36,6 +36,9 @@ const Login = () => {
         if (response.data.success) {
           localStorage.setItem("isLogin", true);
           localStorage.setItem("userEmail", response.data.user.email)
+          localStorage.setItem("isDataWiz", response.data.user["isDatawiz"])
+          localStorage.setItem("isNCC", response.data.user["isNCC"])
+          localStorage.setItem("isRC", response.data.user["isRC"])
           setLoginState(true);
           navigate("/");
           toast.update(id, { render: "Logged in successfully !", type: "success", isLoading: false, autoClose:3000 })

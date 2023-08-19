@@ -41,19 +41,23 @@ const EventsCard = (props) => {
       })
 
   }
-
+  const isRegisterd = localStorage.getItem("is"+props.shortname);
+  console.log(isRegisterd);
   const obj = props.rules.split("\n");
   
   const contact1 = props.contact.split("\n")
   let btncontent = "Register Here";
   if(props.shortname==="NTH"){
     btncontent = "Coming soon";
+    if(isRegisterd){
+      btncontent = "Registered";
+    }
   }
 
   const checkCondition = () => {
-    // Example condition: disable the button when a count is greater than 5
-    return props.shortname==="NTH";
+    return ((props.shortname==="NTH" || isRegisterd=="true"));
   };
+
   let inlineStyles={}
   
   if(props.shortname === "RC" && window.innerWidth<768)
@@ -65,6 +69,7 @@ const EventsCard = (props) => {
     }
   }
 
+  
 
   return (
     <>
