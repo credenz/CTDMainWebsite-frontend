@@ -14,6 +14,9 @@ const NavBar = () => {
     const userEmail = localStorage.getItem("userEmail")
     localStorage.removeItem("isLogin");
     localStorage.removeItem("userEmail");
+    localStorage.removeItem("isDatawiz");
+    localStorage.removeItem("isNCC");
+    localStorage.removeItem("isRC");
 
     const logoutEndpoint = "/api/logout/"
     const logoutPayload = {"email" : userEmail}
