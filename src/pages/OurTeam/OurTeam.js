@@ -177,7 +177,7 @@ const OurTeam = () => {
                 </div>
               </div>
             </div>
-            <div className="col colu  mb-5">
+            <div className="col colu  mb-5 lastCard">
               <div className="effect p-1">
                 <div className="p-4">
                   <img alt="#"

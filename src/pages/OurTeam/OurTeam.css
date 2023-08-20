@@ -4,13 +4,7 @@
     border:2px solid rgba(255, 255, 255, 0.1);
     border-radius:10px;
 }
-.lastCard
-{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 10vh;
-}
+
 .ourTeamPg{
   position: relative;
     margin-top:5vh;
@@ -90,7 +84,13 @@ a {
   .effect{
     max-width: 290px;
   }
-
+  .lastCard
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15vh !important;
+  }
 }
 
 
