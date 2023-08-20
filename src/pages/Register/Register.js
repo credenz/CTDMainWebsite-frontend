@@ -80,7 +80,7 @@ const Register = () => {
         }
       })
       .catch((error) => {
-        toast.update(id, { render: error.response.data.error.split(",")[0], type: "error", isLoading: false, autoClose:3000 })
+        toast.update(id, { render: error.response.data.error, type: "error", isLoading: false, autoClose:3000 })
       });
     }, 1000)
   };
