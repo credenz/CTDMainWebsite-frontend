@@ -152,7 +152,9 @@ const OurTeam = () => {
                 </div>
               </div>
             </div>
+            </div>
 {/* new part */}
+<div className="row row-cols-1 row-cols-md-2 row-cols-lg-2 gx-0">
             <div className="col colu  mb-5">
               <div className="effect p-1">
                 <div className="p-4">
@@ -197,7 +199,8 @@ const OurTeam = () => {
                 </div>
               </div>
             </div>
-            <div className="col colu  mb-5">
+            </div>
+            {/* <div className="col colu  mb-5">
               <div className="effect p-1">
                 <div className="p-4">
                   <img alt="#"
@@ -242,8 +245,8 @@ const OurTeam = () => {
                   <a target="blank"href="https://www.linkedin.com/in/pratik-walale-a381b322b/"> <span className="bi bi-linkedin mx-2"></span><span></span></a>
                   <a target="blank"href="https://instagram.com/pratik_walale_09?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" ><span className="bi bi-instagram mx-2"></span></a>
                 </div>
-              </div>
-            </div>
+              </div> */}
+            {/* </div> */}
         </div>
       </div>
     </div>
