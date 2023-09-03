@@ -5,7 +5,7 @@ export const events=[
         shortname:`Datawiz`,
         imageUrl:`https://i.postimg.cc/C1CMVDwq/2fe49281-82a7-4bd3-b730-a709b8087b77.png`,
         details:`Get ready to set off on a journey to the world of data science. DataWiz gives you an opportunity to test your machine learning and data analytics skills, work on datasets to analyse and make predictions using your models. Datawiz is a machine learning competition hosted on Kaggle.`,
-        timings : `25/08/2023 to 27/08/2023`,
+        timings : `10/09/2023`,
         rules:`1: Each team of students may consist of a maximum of 2 participants. One account per participant
         2: Signing In on Kaggle through Multiple accounts is prohibited.
         3: Submission Limits: You may submit a maximum of 10 entries per day. Final 2 submissions will be considered for judging.
@@ -36,7 +36,7 @@ export const events=[
         shortname : `NCC`,
         imageUrl:`https://i.postimg.cc/Qxq8ZTKM/NCC-2.png `,
         details:`The best algorithm is ten steps ahead of the second-best. So are you good enough to code the best one? National Computing Competition lets you test your coding skills with other coders. Sign Up to compete for the 'Overlord Coder' title and get a chance to experience real-world coding competition!`,
-        timings : `25/08/2023`,
+        timings : `11/09/2023`,
         rules:`1: Contest will contain 5-6 problems that need to be coded in Python, C++, or C.
         2: It will be individual competition hence teaming up is strictly restricted.
         3: For the first correct submission of a question, you will receive the points currently available on that question.
@@ -51,7 +51,7 @@ export const events=[
         shortname : `RC`,
         imageUrl:`https://i.postimg.cc/50nbjgvw/revb.png`,
         details:`Reverse Coding is a coding competition to analyze your problem solving ability with programming knowledge along with mathematical skills. Test your ability to decode the pattern through a decipher and code round in any of the languages - C, C++, Java and Python.`,
-        timings : `27/08/2023`,
+        timings : `12/09/2023`,
         rules:`1: Contest will contain 5-6 problems that need to be coded in Python, C++, or C.
         2: It will be individual competition hence teaming up is strictly restricted.
         3: For the first correct submission of a question, you will receive the points currently available on that question.

@@ -43,7 +43,8 @@ const EventsCard = (props) => {
       })
 
   }
-  const isRegisterd = localStorage.getItem("is"+props.shortname);
+  // const isRegisterd = localStorage.getItem("is"+props.shortname);
+  const isRegisterd = "true";
   const obj = props.rules.split("\n");
   
   const contact1 = props.contact.split("\n")
@@ -52,7 +53,7 @@ const EventsCard = (props) => {
     btncontent = "Coming soon";
     }
     if(isRegisterd==="true"){
-      btncontent = "Registered";
+      btncontent = "Register here";
   }
 
   const checkCondition = () => {

@@ -99,14 +99,14 @@ const NavBar = () => {
                   Contact Us
                 </NavLink>
               </li>
-              <li className="nav-item text-light mx-2">
+              {/* <li className="nav-item text-light mx-2">
                 <NavLink
                   to="/sponsor"
                   className="text-decoration-none nav-link w-100 navitem"
                 >
                   Sponsor
                 </NavLink>
-              </li>
+              </li> */}
               <li className={`nav-item text-light mx-2 ${loginState ? hidingcss : ""}`}>
                 <NavLink
                   to="/login"

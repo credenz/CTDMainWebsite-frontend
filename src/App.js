@@ -11,7 +11,7 @@ import Register from "./pages/Register/Register";
 import OurTeam from "./pages/OurTeam/OurTeam";
 import ResetPassword from "./pages/Reset Password/ResetPassword";
 import DataContext from "./contexts/DataContext";
-import Sponsor from "./pages/Sponsors/Sponsor";
+// import Sponsor from "./pages/Sponsors/Sponsor";
 import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import { useState } from "react";
@@ -39,7 +39,7 @@ function App() {
             <Route exact path="/register" element={<Register />} />
             <Route exact path="/ourteam" element={<OurTeam />} />
             <Route exact path="/resetpassword/:token" element={<ResetPassword />} />
-            <Route exact path="/sponsor" element={<Sponsor/>} />
+            {/* <Route exact path="/sponsor" element={<Sponsor/>} /> */}
           </Routes>
         </div>
         <div>
