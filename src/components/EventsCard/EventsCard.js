@@ -49,15 +49,15 @@ const EventsCard = (props) => {
   
   const contact1 = props.contact.split("\n")
   let btncontent = "Register Here";
-  if(props.shortname==="NTH"){
-    btncontent = "Coming soon";
+  if(props.shortname==="Decode Rush"){
+    btncontent = "Register Here";
     }
     if(isRegisterd==="true"){
       btncontent = "Register here";
   }
 
   const checkCondition = () => {
-    return ((props.shortname==="NTH" || isRegisterd==="true"));
+    return ((props.shortname==="Decode Rush" || isRegisterd==="true"));
   };
 
   let inlineStyles={}

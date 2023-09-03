@@ -16,19 +16,41 @@ export const events=[
     },
     {
         key: 0,
-        eventName:`Network Treasure Hunt`,
-        shortname : `NTH`,
-        imageUrl:`https://i.postimg.cc/Wp6SGNJZ/nth2.png  `,
-        details:`Bored with the same regular class? Want to deep dive 
-        into the world of ciphers and puzzles? NTH got you covered!
-        Network Treasure Hunt is an online version of a treasure hunt
-        but with more adventure and riddles! Put on your thinking hats and join us 
-        in the event where LOGIC is all you can think of.` ,
-        timings : `Will be declared soon`,
-        rules:`1: All the puzzles will be displayed on nth.credenz.in \n 2: Each puzzle leads to a unique keyword. This keyword will take you to the next question. \n 3: The Contest will show a real-time leaderboard for all players.\n 4: After the contest is concluded, the first person on the leaderboard will be declared as the winner. \n 5: It is a solo contest, hence any activity with teaming up is strictly restricted.`,
+        eventName:`Decode  Rush`,
+        shortname : `DecodeRush`,
+        imageUrl:`https://i.postimg.cc/gJ0R7nLr/resized.png  `,
+        details:`Embark on a quest to unravel the cryptic conundrums guarding the path to prizes` ,
+        timings : `13/09/2023`,
+        rules:`
+        1. Team must contain a maximum of 4 participants.
+        2. The area for gameplay is restricted to PICT campus only(Excluding Buildings). No chits/hints/clues are placed out.
+        3. Lawn areas, gcr (art circle room), classrooms are NOT included in the gameplay.
+        4. Hints to a question will lead you to a codeward and a location.
+        5. You are required to come to the location and tell the codeword to the volunteers present there.
+        6. You'll be given some fun sidetasks for some of the questions before moving on to the next.
+        7. Any mishandling of hints to members of a different team or any person other than your team is strictly condemned. Strict actions would be taken in case such a thing is noticed.
+        8. Bring your registration receipts / Screenshots of Gform and in order to start the game.
+        9. All those who won the 'Advantage Chits' are required to bring those at the time of game. Failure to produce which, no benefits will be entertained.
+        10. The results announced will be final and won’t be changed.
+        11. If you have any doubts ask the coordinators or volunteers for instruction.`,
         contact:`Karan Mundhada : +91 8080792381
-                Riddhi Kulkarni :  +91 9309338976`
+        Shruti Shinde : +91 9309021275`
     },
+    // {
+    //     key: 0,
+    //     eventName:`Network Treasure Hunt`,
+    //     shortname : `NTH`,
+    //     imageUrl:`https://i.postimg.cc/Wp6SGNJZ/nth2.png  `,
+    //     details:`Bored with the same regular class? Want to deep dive 
+    //     into the world of ciphers and puzzles? NTH got you covered!
+    //     Network Treasure Hunt is an online version of a treasure hunt
+    //     but with more adventure and riddles! Put on your thinking hats and join us 
+    //     in the event where LOGIC is all you can think of.` ,
+    //     timings : `Will be declared soon`,
+    //     rules:`1: All the puzzles will be displayed on nth.credenz.in \n 2: Each puzzle leads to a unique keyword. This keyword will take you to the next question. \n 3: The Contest will show a real-time leaderboard for all players.\n 4: After the contest is concluded, the first person on the leaderboard will be declared as the winner. \n 5: It is a solo contest, hence any activity with teaming up is strictly restricted.`,
+    //     contact:`Karan Mundhada : +91 8080792381
+    //             Riddhi Kulkarni :  +91 9309338976`
+    // },
     
     {
         key:1,
