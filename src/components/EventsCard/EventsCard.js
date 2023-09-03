@@ -43,21 +43,21 @@ const EventsCard = (props) => {
       })
 
   }
-  // const isRegisterd = localStorage.getItem("is"+props.shortname);
-  const isRegisterd = "true";
+  const isRegisterd = localStorage.getItem("is"+props.shortname);
+  // const isRegisterd = "true";
   const obj = props.rules.split("\n");
   
   const contact1 = props.contact.split("\n")
   let btncontent = "Register Here";
-  if(props.shortname==="Decode Rush"){
-    btncontent = "Register Here";
+  if(props.shortname==="DecodeRush"){
+    btncontent = "Coming Soon";
     }
     if(isRegisterd==="true"){
-      btncontent = "Register here";
+      btncontent = "Registered";
   }
 
   const checkCondition = () => {
-    return ((props.shortname==="Decode Rush" || isRegisterd==="true"));
+    return ((props.shortname==="DecodeRush" || isRegisterd==="true"));
   };
 
   let inlineStyles={}

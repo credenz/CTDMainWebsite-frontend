@@ -20,7 +20,7 @@ export const events=[
         shortname : `DecodeRush`,
         imageUrl:`https://i.postimg.cc/gJ0R7nLr/resized.png  `,
         details:`Embark on a quest to unravel the cryptic conundrums guarding the path to prizes` ,
-        timings : `13/09/2023`,
+        timings : `13/09/2023 4pm onwards`,
         rules:`
         1. Team must contain a maximum of 4 participants.
         2. The area for gameplay is restricted to PICT campus only(Excluding Buildings). No chits/hints/clues are placed out.
