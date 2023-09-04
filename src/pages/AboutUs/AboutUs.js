@@ -13,11 +13,7 @@ const AboutUs = () => {
             <p><strong> Credenz Tech Dayz </strong>is an intra-college annual techfest organized by the PICT IEEE
               Student Branch where the brightest minds of PICT compete in technical as well as non-technical events.
               Participants get a chance to test their logical aptitute and problem solving skills in events like like
-              National Computing Contest and Reverse Coding. The Network Treasure Hunt is an online cryptic hunt that
-              challenges you to use every tool at your disposal and piece together every bit of the puzzle.
-              Inquisitive is a mind-boggling test to question your wits and test your general knowledge. This is a
-              chance for the students to go beyond the traditional spheres of academics and make the most of their
-              potential.</p>
+              National Computing Contest and Reverse Coding. Decode Rush is a unique and immersive outdoor quest designed to ignite your sense of adventure. Participants embark on a thrilling scavenger hunt, armed with just two crucial elements: a clue that leads to the next location and a riddle that holds the answer</p>
           </div>
       </div>
 

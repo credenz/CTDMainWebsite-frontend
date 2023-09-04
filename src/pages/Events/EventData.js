@@ -19,7 +19,7 @@ export const events=[
         eventName:`Decode  Rush`,
         shortname : `DecodeRush`,
         imageUrl:`https://i.postimg.cc/gJ0R7nLr/resized.png  `,
-        details:`Embark on a quest to unravel the cryptic conundrums guarding the path to prizes` ,
+        details:`Decode Rush is a unique and immersive outdoor quest designed to ignite your sense of adventure. Participants embark on a thrilling scavenger hunt, armed with just two crucial elements: a clue that leads to the next location and a riddle that holds the answer` ,
         timings : `13/09/2023 4pm onwards`,
         rules:`
         1. Team must contain a maximum of 4 participants.

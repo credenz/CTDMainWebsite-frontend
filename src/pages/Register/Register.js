@@ -158,7 +158,7 @@ const Register = () => {
               <input
                 type="text"
                 className="form-control form-control-lg fs-6 input-style-register"
-                placeholder="&#xF4CF;  Reg. Id"
+                placeholder="&#xF4CF;  Reg. Id eg. I2K2...."
                 name="reg_id"
                 value={userDetails.reg_id}
                 onChange={handleChange}
@@ -196,21 +196,21 @@ const Register = () => {
             </div> */}
 
             <div className="input-group mb-1">
-              <small>
+              {/* <small>
                 <div class="form-check ms-1">
                   <input
-                    class="form-check-input"
+                    class="form-check-input hide"
                     type="checkbox"
                     name="isJunior"
                     value="false"
                     id="flexCheckDefault"
                     onClick={handleChange}
                   />
-                  <label class="form-check-label" htmlFor="flexCheckDefault">
+                  <label class="form-check-label hide" htmlFor="flexCheckDefault">
                     Junior
                   </label>
                 </div>
-              </small>
+              </small> */}
               <button className="btn btn-lg w-100 rounded-2 fs-6 btn12">
                 Register &#xF4DD;
               </button>

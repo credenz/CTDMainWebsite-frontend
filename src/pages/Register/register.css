@@ -11,7 +11,9 @@
   height: 90vh;
 
 }
-
+.hide{
+  display: none;
+}
 
 .input-style-register{
   background:rgba(255,255,255,0.1);
