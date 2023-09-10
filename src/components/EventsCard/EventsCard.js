@@ -10,7 +10,14 @@ const EventsCard = (props) => {
   const navigate = useNavigate();
   const [togglingState, toggleState] = useState(false);
   const registerEvent = (e) => {
+    if(props.shortname == "DecodeRush")
+    {
+      var targetURL = "https://forms.gle/dJfJ2Ux4CUiA1kNV6"; // Replace with your desired URL
 
+      // Redirect to the target URL
+      window.open(targetURL, "_blank");
+    }
+    else{
     const id = toast.loading("Please wait...");
     const eventName = e.target.name;
     const email = localStorage.getItem("userEmail")
@@ -41,7 +48,7 @@ const EventsCard = (props) => {
           navigate("/events")
         }
       })
-
+    }
   }
   const isRegisterd = localStorage.getItem("is"+props.shortname);
   // const isRegisterd = "true";
@@ -49,7 +56,7 @@ const EventsCard = (props) => {
   
   const contact1 = props.contact.split("\n")
   let btncontent = "Register Here";
-  if(props.shortname==="DecodeRush"){
+  if(props.shortname==="Decode Rush"){
     btncontent = "Coming Soon";
     }
     if(isRegisterd==="true"){
@@ -57,7 +64,7 @@ const EventsCard = (props) => {
   }
 
   const checkCondition = () => {
-    return ((props.shortname==="DecodeRush" || isRegisterd==="true"));
+    return ((isRegisterd==="true"));
   };
 
   let inlineStyles={}
