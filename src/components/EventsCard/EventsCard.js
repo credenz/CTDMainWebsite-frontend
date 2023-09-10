@@ -10,7 +10,7 @@ const EventsCard = (props) => {
   const navigate = useNavigate();
   const [togglingState, toggleState] = useState(false);
   const registerEvent = (e) => {
-    if(props.shortname == "DecodeRush")
+    if(props.shortname === "DecodeRush")
     {
       var targetURL = "https://forms.gle/dJfJ2Ux4CUiA1kNV6"; // Replace with your desired URL
 
