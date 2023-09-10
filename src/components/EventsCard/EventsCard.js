@@ -102,6 +102,12 @@ const EventsCard = (props) => {
                 <div className="tab-pane fade show active" id={`v-pills-home-${props.shortname}`}
                   role="tabpanel" aria-labelledby="v-pills-home-tab">
                   <p id="dtext">{props.details}</p>
+                  <span>Prizes : </span>
+                  <br></br>
+                  <span>{props.prize[0]}</span>
+                  <br></br>
+                  <span>{props.prize[1]}</span>
+                  <p>{props.prize[2]}</p>
                   <span>Dates : </span>
                   <p className='timing'>{props.timings}</p>
                 </div>

@@ -26,6 +26,7 @@ const Events = () => {
                     timings={event.timings}
                     rules={event.rules}
                     contact={event.contact}
+                    prize = {event.prize}
                   />
                 })
               }
